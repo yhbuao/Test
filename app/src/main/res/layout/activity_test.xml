@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_test"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.haibo.myapplication.TestActivity">
+
+    <LinearLayout
+        android:id="@+id/sj_main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#34ac18">
+
+    </LinearLayout>
+
+</RelativeLayout>
