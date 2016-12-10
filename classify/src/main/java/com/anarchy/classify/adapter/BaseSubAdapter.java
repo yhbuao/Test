@@ -5,7 +5,6 @@ import android.support.v7.widget.RecyclerView;
 import android.view.VelocityTracker;
 import android.view.View;
 
-
 import com.anarchy.classify.ClassifyView;
 
 import java.util.List;

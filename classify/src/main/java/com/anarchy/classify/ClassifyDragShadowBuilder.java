@@ -1,9 +1,7 @@
 package com.anarchy.classify;
 
 import android.graphics.Canvas;
-import android.graphics.Color;
 import android.graphics.Point;
-import android.graphics.PorterDuff;
 import android.view.View;
 
 import java.lang.ref.WeakReference;

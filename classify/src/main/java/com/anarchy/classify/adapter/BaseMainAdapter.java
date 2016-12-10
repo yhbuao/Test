@@ -5,9 +5,8 @@ import android.support.v7.widget.RecyclerView;
 import android.view.VelocityTracker;
 import android.view.View;
 
-import com.anarchy.classify.MergeInfo;
-import com.anarchy.classify.simple.ChangeInfo;
 import com.anarchy.classify.ClassifyView;
+import com.anarchy.classify.MergeInfo;
 
 import java.util.List;
 

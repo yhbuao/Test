@@ -1,7 +1,6 @@
 package com.anarchy.classify.simple.widget;
 
 import android.animation.Animator;
-import android.animation.AnimatorListenerAdapter;
 import android.animation.ObjectAnimator;
 import android.animation.PropertyValuesHolder;
 import android.animation.ValueAnimator;
@@ -13,10 +12,9 @@ import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.DecelerateInterpolator;
-import android.widget.PopupWindow;
 
-import com.anarchy.classify.simple.ChangeInfo;
 import com.anarchy.classify.R;
+import com.anarchy.classify.simple.ChangeInfo;
 import com.anarchy.classify.simple.SimpleAdapter;
 
 import java.util.ArrayList;

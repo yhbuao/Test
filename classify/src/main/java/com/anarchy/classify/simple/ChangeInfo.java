@@ -1,6 +1,5 @@
 package com.anarchy.classify.simple;
 
-import android.graphics.Point;
 import android.support.v7.widget.RecyclerView;
 
 /**
