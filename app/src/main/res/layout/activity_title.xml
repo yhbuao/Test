@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_title"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.haibo.myapplication.TitleActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.haibo.myapplication.view.QQReadTitleSelectedView
+        android:id="@+id/qrtsv"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="300dp"
+        app:qrtsv_border_width="2dp"
+        app:qrtsv_items="@array/default_item"
+        app:qrtsv_text_size="18sp"
+        android:layout_height="40dp"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+</RelativeLayout>

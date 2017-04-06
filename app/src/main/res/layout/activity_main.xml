@@ -5,8 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
-    tools:context="com.haibo.myapplication.MainActivity">
+    tools:context="com.haibo.myapplication.MainActivity"
+    xmlns:shadow="http://schemas.android.com/apk/res-auto">
 
     <Button
         android:id="@+id/bt1"
@@ -31,11 +31,17 @@
         android:text="bjhkjbdhsfvhld"
         android:textSize="20dp"/>
 
+    <com.youth.banner.Banner
+        android:layout_below="@+id/tv1"
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
 
     <ImageView
         android:id="@+id/webview"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:scaleType="fitXY"/>
 
@@ -61,6 +67,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Listview"/>
+        <Button
+            android:id="@+id/bt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="title"/>
     </LinearLayout>
 
 </RelativeLayout>
